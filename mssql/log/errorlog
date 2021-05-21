@@ -1,0 +1,136 @@
+2021-05-21 01:22:38.88 Server      Microsoft SQL Server 2017 (RTM) - 14.0.1000.169 (X64) 
+	Aug 22 2017 17:04:49 
+	Copyright (C) 2017 Microsoft Corporation
+	Developer Edition (64-bit) on Linux (Ubuntu 16.04.3 LTS)
+2021-05-21 01:22:38.89 Server      UTC adjustment: 0:00
+2021-05-21 01:22:38.89 Server      (c) Microsoft Corporation.
+2021-05-21 01:22:38.89 Server      All rights reserved.
+2021-05-21 01:22:38.90 Server      Server process ID is 4120.
+2021-05-21 01:22:38.90 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2021-05-21 01:22:38.90 Server      Registry startup parameters: 
+	 -d /var/opt/mssql/data/master.mdf
+	 -l /var/opt/mssql/data/mastlog.ldf
+	 -e /var/opt/mssql/log/errorlog
+2021-05-21 01:22:38.91 Server      SQL Server detected 10 sockets with 1 cores per socket and 1 logical processors per socket, 10 total logical processors; using 10 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2021-05-21 01:22:38.92 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2021-05-21 01:22:38.92 Server      Detected 16422 MB of RAM. This is an informational message; no user action is required.
+2021-05-21 01:22:38.93 Server      Using conventional memory in the memory manager.
+2021-05-21 01:22:38.93 Server      Large Page Allocated: 32MB 
+2021-05-21 01:22:39.22 Server      Automatic soft-NUMA was enabled because SQL Server has detected hardware NUMA nodes with greater than 8 physical cores.
+2021-05-21 01:22:40.23 Server      Buffer pool extension is already disabled. No action is necessary. 
+2021-05-21 01:22:40.94 Server      InitializeExternalUserGroupSid failed. Implied authentication will be disabled.
+2021-05-21 01:22:40.94 Server      Implied authentication manager initialization failed. Implied authentication will be disabled.
+2021-05-21 01:22:40.95 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2021-05-21 01:22:41.00 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2021-05-21 01:22:41.00 Server      Node configuration: node 0: CPU mask: 0x000000000000001f:0 Active CPU mask: 0x000000000000001f:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2021-05-21 01:22:41.01 Server      Node configuration: node 1: CPU mask: 0x00000000000003e0:0 Active CPU mask: 0x00000000000003e0:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2021-05-21 01:22:41.02 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2021-05-21 01:22:41.02 Server      In-Memory OLTP initialized on standard machine.
+2021-05-21 01:22:41.09 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2021-05-21 01:22:41.11 Server      Query Store settings initialized with enabled = 1, 
+2021-05-21 01:22:41.11 spid7s      Starting up database 'master'.
+2021-05-21 01:22:41.12 Server      Software Usage Metrics is disabled.
+2021-05-21 01:22:41.47 spid7s      The tail of the log for database master is being rewritten to match the new sector size of 4096 bytes.  3072 bytes at offset 418816 in file /var/opt/mssql/data/mastlog.ldf will be written.
+2021-05-21 01:22:41.58 spid7s      Converting database 'master' from version 862 to the current version 869.
+2021-05-21 01:22:41.58 spid7s      Database 'master' running the upgrade step from version 862 to version 863.
+2021-05-21 01:22:41.60 spid7s      Database 'master' running the upgrade step from version 863 to version 864.
+2021-05-21 01:22:41.62 spid7s      Database 'master' running the upgrade step from version 864 to version 865.
+2021-05-21 01:22:41.63 spid7s      Database 'master' running the upgrade step from version 865 to version 866.
+2021-05-21 01:22:41.63 spid7s      Database 'master' running the upgrade step from version 866 to version 867.
+2021-05-21 01:22:41.64 spid7s      Database 'master' running the upgrade step from version 867 to version 868.
+2021-05-21 01:22:41.65 spid7s      Database 'master' running the upgrade step from version 868 to version 869.
+2021-05-21 01:22:41.84 spid7s      Resource governor reconfiguration succeeded.
+2021-05-21 01:22:41.85 spid7s      SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2021-05-21 01:22:41.85 spid7s      SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2021-05-21 01:22:41.94 spid7s      SQL Trace ID 1 was started by login "sa".
+2021-05-21 01:22:41.94 spid21s     Password policy update was successful.
+2021-05-21 01:22:41.95 spid7s      Server name is '532a53d3ba61'. This is an informational message only. No user action is required.
+2021-05-21 01:22:41.96 spid22s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2021-05-21 01:22:41.96 spid7s      Starting up database 'msdb'.
+2021-05-21 01:22:41.96 spid22s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2021-05-21 01:22:41.96 spid10s     Starting up database 'mssqlsystemresource'.
+2021-05-21 01:22:41.97 spid10s     The resource database build version is 14.00.1000. This is an informational message only. No user action is required.
+2021-05-21 01:22:41.99 spid10s     Starting up database 'model'.
+2021-05-21 01:22:42.45 spid10s     The tail of the log for database model is being rewritten to match the new sector size of 4096 bytes.  2048 bytes at offset 75776 in file /var/opt/mssql/data/modellog.ldf will be written.
+2021-05-21 01:22:42.48 spid7s      The tail of the log for database msdb is being rewritten to match the new sector size of 4096 bytes.  512 bytes at offset 52736 in file /var/opt/mssql/data/MSDBLog.ldf will be written.
+2021-05-21 01:22:42.49 spid10s     Converting database 'model' from version 862 to the current version 869.
+2021-05-21 01:22:42.49 spid10s     Database 'model' running the upgrade step from version 862 to version 863.
+2021-05-21 01:22:42.51 spid10s     Database 'model' running the upgrade step from version 863 to version 864.
+2021-05-21 01:22:42.52 spid7s      Converting database 'msdb' from version 862 to the current version 869.
+2021-05-21 01:22:42.52 spid7s      Database 'msdb' running the upgrade step from version 862 to version 863.
+2021-05-21 01:22:42.52 spid10s     Database 'model' running the upgrade step from version 864 to version 865.
+2021-05-21 01:22:42.52 spid10s     Database 'model' running the upgrade step from version 865 to version 866.
+2021-05-21 01:22:42.53 spid10s     Database 'model' running the upgrade step from version 866 to version 867.
+2021-05-21 01:22:42.53 spid10s     Database 'model' running the upgrade step from version 867 to version 868.
+2021-05-21 01:22:42.54 spid7s      Database 'msdb' running the upgrade step from version 863 to version 864.
+2021-05-21 01:22:42.55 spid10s     Database 'model' running the upgrade step from version 868 to version 869.
+2021-05-21 01:22:42.55 spid7s      Database 'msdb' running the upgrade step from version 864 to version 865.
+2021-05-21 01:22:42.56 spid7s      Database 'msdb' running the upgrade step from version 865 to version 866.
+2021-05-21 01:22:42.56 spid7s      Database 'msdb' running the upgrade step from version 866 to version 867.
+2021-05-21 01:22:42.57 spid7s      Database 'msdb' running the upgrade step from version 867 to version 868.
+2021-05-21 01:22:42.59 spid7s      Database 'msdb' running the upgrade step from version 868 to version 869.
+2021-05-21 01:22:42.66 spid10s     Polybase feature disabled.
+2021-05-21 01:22:42.66 spid10s     Clearing tempdb database.
+2021-05-21 01:22:42.83 spid21s     A self-generated certificate was successfully loaded for encryption.
+2021-05-21 01:22:42.83 spid21s     Server is listening on [ 'any' <ipv4> 1433].
+2021-05-21 01:22:42.84 Server      Server is listening on [ 127.0.0.1 <ipv4> 1434].
+2021-05-21 01:22:42.84 Server      Dedicated admin connection support was established for listening locally on port 1434.
+2021-05-21 01:22:42.85 spid21s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
+2021-05-21 01:22:43.48 spid10s     Starting up database 'tempdb'.
+2021-05-21 01:22:43.86 spid10s     The tempdb database has 1 data file(s).
+2021-05-21 01:22:43.86 spid22s     The Service Broker endpoint is in disabled or stopped state.
+2021-05-21 01:22:43.86 spid22s     The Database Mirroring endpoint is in disabled or stopped state.
+2021-05-21 01:22:43.87 spid22s     Service Broker manager has started.
+2021-05-21 01:22:43.98 spid7s      Recovery is complete. This is an informational message only. No user action is required.
+2021-05-21 01:22:44.31 spid11s     The default language (LCID 0) has been set for engine and full-text services.
+2021-05-21 01:26:57.29 spid51      Attempting to load library 'xpstar.dll' into memory. This is an informational message only. No user action is required.
+2021-05-21 01:26:57.29 spid52      Attempting to load library 'xpstar.dll' into memory. This is an informational message only. No user action is required.
+2021-05-21 01:26:57.47 spid51      Using 'xpstar.dll' version '2017.140.1000' to execute extended stored procedure 'xp_instance_regread'. This is an informational message only; no user action is required.
+2021-05-21 01:27:40.04 spid56      Using 'dbghelp.dll' version '4.0.5'
+2021-05-21 01:28:45.57 spid56      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
+2021-05-21 01:28:45.72 spid56      Using 'xplog70.dll' version '2017.140.1000' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
+2021-05-21 16:26:48.97 spid54      Starting up database 'CatalogDB'.
+2021-05-21 16:26:49.24 spid54      Parallel redo is started for database 'CatalogDB' with worker pool size [5].
+2021-05-21 16:26:49.25 spid54      Parallel redo is shutdown for database 'CatalogDB' with worker pool size [5].
+2021-05-21 16:36:48.88 Logon       Error: 18456, Severity: 14, State: 58.
+2021-05-21 16:36:48.88 Logon       Login failed for user ''. Reason: An attempt to login using SQL authentication failed. Server is configured for Integrated authentication only. [CLIENT: 172.21.0.1]
+2021-05-21 16:36:56.34 Logon       Error: 18456, Severity: 14, State: 58.
+2021-05-21 16:36:56.34 Logon       Login failed for user ''. Reason: An attempt to login using SQL authentication failed. Server is configured for Integrated authentication only. [CLIENT: 172.21.0.1]
+2021-05-21 16:38:41.53 Logon       Error: 18456, Severity: 14, State: 58.
+2021-05-21 16:38:41.53 Logon       Login failed for user ''. Reason: An attempt to login using SQL authentication failed. Server is configured for Integrated authentication only. [CLIENT: 172.21.0.1]
+2021-05-21 16:38:51.19 Logon       Error: 18456, Severity: 14, State: 58.
+2021-05-21 16:38:51.19 Logon       Login failed for user ''. Reason: An attempt to login using SQL authentication failed. Server is configured for Integrated authentication only. [CLIENT: 172.21.0.1]
+2021-05-21 16:47:42.43 Logon       Error: 18456, Severity: 14, State: 58.
+2021-05-21 16:47:42.43 Logon       Login failed for user ''. Reason: An attempt to login using SQL authentication failed. Server is configured for Integrated authentication only. [CLIENT: 172.21.0.1]
+2021-05-21 16:52:28.54 Logon       Error: 18456, Severity: 14, State: 38.
+2021-05-21 16:52:28.54 Logon       Login failed for user 'CommanderAPI'. Reason: Failed to open the explicitly specified database 'CommanderDB'. [CLIENT: 172.21.0.1]
+2021-05-21 17:11:18.96 Logon       Error: 18456, Severity: 14, State: 58.
+2021-05-21 17:11:18.96 Logon       Login failed for user ''. Reason: An attempt to login using SQL authentication failed. Server is configured for Integrated authentication only. [CLIENT: 172.21.0.1]
+2021-05-21 17:11:39.46 Logon       Error: 18456, Severity: 14, State: 58.
+2021-05-21 17:11:39.46 Logon       Login failed for user ''. Reason: An attempt to login using SQL authentication failed. Server is configured for Integrated authentication only. [CLIENT: 172.21.0.1]
+2021-05-21 17:14:17.87 Logon       Error: 18456, Severity: 14, State: 8.
+2021-05-21 17:14:17.87 Logon       Login failed for user 'CommanderAPI'. Reason: Password did not match that for the login provided. [CLIENT: 172.21.0.1]
+2021-05-21 17:14:42.72 Logon       Error: 18456, Severity: 14, State: 8.
+2021-05-21 17:14:42.72 Logon       Login failed for user 'CommanderAPI'. Reason: Password did not match that for the login provided. [CLIENT: 172.21.0.1]
+2021-05-21 17:15:26.94 Logon       Error: 18456, Severity: 14, State: 8.
+2021-05-21 17:15:26.94 Logon       Login failed for user 'CommanderAPI'. Reason: Password did not match that for the login provided. [CLIENT: 172.21.0.1]
+2021-05-21 17:17:44.07 spid54      Process ID 55 was killed by hostname kiyotanoiMac, host process ID 5959.
+2021-05-21 17:18:54.21 Logon       Error: 18456, Severity: 14, State: 38.
+2021-05-21 17:18:54.21 Logon       Login failed for user 'CommanderAPI'. Reason: Failed to open the explicitly specified database 'CommanderDB'. [CLIENT: 172.21.0.1]
+2021-05-21 17:19:04.25 Logon       Error: 18456, Severity: 14, State: 38.
+2021-05-21 17:19:04.25 Logon       Login failed for user 'CommanderAPI'. Reason: Failed to open the explicitly specified database 'CommanderDB'. [CLIENT: 172.21.0.1]
+2021-05-21 17:22:29.73 Logon       Error: 18456, Severity: 14, State: 38.
+2021-05-21 17:22:29.73 Logon       Login failed for user 'CommanderAPI'. Reason: Failed to open the explicitly specified database 'CommanderDB'. [CLIENT: 172.21.0.1]
+2021-05-21 17:22:39.77 Logon       Error: 18456, Severity: 14, State: 38.
+2021-05-21 17:22:39.77 Logon       Login failed for user 'CommanderAPI'. Reason: Failed to open the explicitly specified database 'CommanderDB'. [CLIENT: 172.21.0.1]
+2021-05-21 17:25:20.32 Logon       Error: 18456, Severity: 14, State: 38.
+2021-05-21 17:25:20.32 Logon       Login failed for user 'CommanderAPI'. Reason: Failed to open the explicitly specified database 'CommanderDB'. [CLIENT: 172.21.0.1]
+2021-05-21 17:25:30.36 Logon       Error: 18456, Severity: 14, State: 38.
+2021-05-21 17:25:30.36 Logon       Login failed for user 'CommanderAPI'. Reason: Failed to open the explicitly specified database 'CommanderDB'. [CLIENT: 172.21.0.1]
+2021-05-21 17:25:31.13 spid55      Starting up database 'CommanderDB'.
+2021-05-21 17:25:31.43 spid55      Parallel redo is started for database 'CommanderDB' with worker pool size [5].
+2021-05-21 17:25:31.45 spid55      Parallel redo is shutdown for database 'CommanderDB' with worker pool size [5].
+2021-05-21 17:25:31.56 spid55      Setting database option READ_COMMITTED_SNAPSHOT to ON for database 'CommanderDB'.
+2021-05-21 17:25:31.58 spid55      Starting up database 'CommanderDB'.
+2021-05-21 17:25:31.88 spid55      Parallel redo is started for database 'CommanderDB' with worker pool size [5].
+2021-05-21 17:25:31.90 spid55      Parallel redo is shutdown for database 'CommanderDB' with worker pool size [5].
