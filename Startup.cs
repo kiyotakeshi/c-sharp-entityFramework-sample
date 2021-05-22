@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Commander.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -25,12 +26,13 @@ namespace Commander
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        // register DI conntainer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<CommanderContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("CommanderConnection")));
             services.AddControllers();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            // register DI conntainer
             // services.AddScoped<ICommanderRepo, MockCommanderRepo>();
             services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
         }
