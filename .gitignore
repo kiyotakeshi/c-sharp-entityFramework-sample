@@ -434,3 +434,6 @@ $RECYCLE.BIN/
 
 ## for mssql docker
 mssql**
+
+## customj
+obj/Debug/netcoreapp3.1
