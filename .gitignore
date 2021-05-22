@@ -437,3 +437,12 @@ mssql**
 
 ## customj
 obj/Debug/netcoreapp3.1
+bin/Debug/netcoreapp3.1/Commander.dll
+bin/Debug/netcoreapp3.1/Commander.pdb
+obj/project.nuget.cache
+obj/Debug/netcoreapp3.1/Commander.assets.cache
+obj/Debug/netcoreapp3.1/Commander.csproj.CoreCompileInputs.cache
+obj/Debug/netcoreapp3.1/Commander.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp3.1/Commander.csprojAssemblyReference.cache
+obj/Debug/netcoreapp3.1/Commander.dll
+obj/Debug/netcoreapp3.1/Commander.pdb
